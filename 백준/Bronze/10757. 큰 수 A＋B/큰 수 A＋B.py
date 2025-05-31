@@ -1,3 +1,2 @@
-a = map(int, input().split())
-a = sum(a)
-print(a)
+a, b = map(int, input().split())
+print(a+b)
