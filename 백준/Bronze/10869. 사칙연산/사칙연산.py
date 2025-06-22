@@ -1,7 +1,7 @@
-A, B = map(int, input().split())
+n, m = map(int, input().split())
 
-print(A+B)
-print(A-B)
-print(A*B)
-print(A//B)
-print(A%B)
+print(n+m)
+print(n-m)
+print(n*m)
+print(n//m)
+print(n%m)
