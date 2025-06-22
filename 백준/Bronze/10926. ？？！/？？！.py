@@ -1,3 +1,3 @@
-A = input()
+n = input()
 
-print(A+"??!")
+print(n+"??!")
