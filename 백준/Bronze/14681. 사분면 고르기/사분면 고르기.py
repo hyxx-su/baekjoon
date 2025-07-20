@@ -1,11 +1,11 @@
-x = int(input())
-y = int(input())
+n = int(input())
+m = int(input())
 
-if x>0 and y>0:
+if n > 0 and m > 0:
     print("1")
-elif x<0 and y>0:
+elif n < 0 and m > 0:
     print("2")
-elif x<0 and y<0:
+elif n < 0 and m < 0:
     print("3")
-elif x>0 and y<0:
+elif n > 0 and m < 0:
     print("4")
